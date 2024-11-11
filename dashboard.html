@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            color: green;
+            margin: 0;
+        }
+        .header h2 {
+            color: green;
+            margin: 0;
+        }
+        .content {
+            margin: 20px auto;
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .content select {
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin: 5px 0;
+        }
+        .content ul li a {
+            color: blue;
+            text-decoration: none;
+        }
+        .content ul li a:hover {
+            text-decoration: underline;
+        }
+        .logout {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dashboard</h1>
+            <h2>Welcome Rahul</h2>
+        </div>
+        <div class="content">
+            <button>Fetch Top 10 GitHub Users</button>
+            <select>
+                <option value="default">Default</option>
+            </select>
+            <ul>
+                <li><a href="#">mojombo</a></li>
+                <li><a href="#">defunkt</a></li>
+                <li><a href="#">pjhyett</a></li>
+                <li><a href="#">wycats</a></li>
+                <li><a href="#">ezmobius</a></li>
+                <li><a href="#">ivey</a></li>
+                <li><a href="#">evanphx</a></li>
+                <li><a href="#">vanpelt</a></li>
+                <li><a href="#">wayneeseguin</a></li>
+                <li><a href="#">brynary</a></li>
+            </ul>
+            <button class="logout">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
