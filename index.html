@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSD Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login-container" class="login-container">
+        <h1>Login</h1>
+        <br>
+        <input class="search-bar" type="text" name="username" placeholder="Username" id="username">
+        <br>
+        <input class="search-bar" type="password" name="password" placeholder="Password" id="password">
+        <br>
+        <button class="login-btn">Login</button>
+    </div>
+    <div id="main-body" class="main-body">
+        <h1 style="display: flex; justify-content: center;">Welcome</h1>
+        <h2 style="display: flex; justify-content: center;color: rgb(20, 119, 20);">Kartik Kaushik</h2>
+        <button class="login-btn" id="fetch-git">Fetch Top 10 Git users</button>
+        <select class="select-sort">
+            <option value="0">Default</option>
+            <option value="1">Alphabetical</option>
+        </select>
+        <br>
+        <br>
+        <ul class="gitlist">
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
